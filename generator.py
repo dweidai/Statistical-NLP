@@ -1,7 +1,6 @@
 #!/bin/python
 
 from __future__ import print_function
-
 from lm import LangModel
 import random
 from math import log

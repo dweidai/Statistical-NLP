@@ -10,7 +10,6 @@ import sys
 
 # Python 3 backwards compatibility tricks
 if sys.version_info.major > 2:
-
     def xrange(*args, **kwargs):
         return iter(range(*args, **kwargs))
 
